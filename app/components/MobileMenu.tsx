@@ -16,10 +16,10 @@ export default function MobileMenu() {
       </button>
 
       <div
-        className={`fixed inset-0 z-[100] bg-[#ede5dc] transition duration-500 ${
+        className={`fixed inset-0 z-[9999] overflow-y-auto bg-[#ede5dc] transition-all duration-500 ${
           open
-            ? "pointer-events-auto opacity-100"
-            : "pointer-events-none opacity-0"
+            ? "visible opacity-100"
+            : "invisible opacity-0"
         }`}
       >
         <div className="flex items-center justify-between border-b border-[#292928]/10 px-6 py-5">
