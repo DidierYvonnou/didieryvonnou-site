@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { ArrowRight, Mail } from "lucide-react";
+import NewsletterForm from "../components/NewsletterForm";
 
 const promises = [
   "Des réflexions simples et profondes",
@@ -42,18 +43,9 @@ export default function NewsletterPage() {
               Prendre le temps de revenir à soi.
             </p>
 
-            <form className="relative z-10 mt-10 flex flex-col gap-3">
-              <input
-                type="email"
-                placeholder="Votre adresse email"
-                className="rounded-full border border-[#ede5dc]/20 bg-[#ede5dc]/10 px-6 py-4 text-sm text-[#ede5dc] outline-none placeholder:text-[#ede5dc]/50 focus:border-[#c3963b]"
-              />
-
-              <button className="group flex items-center justify-center gap-3 rounded-full bg-[#ede5dc] px-7 py-4 text-sm font-semibold text-[#292928] transition hover:bg-white">
-                S’inscrire
-                <ArrowRight size={16} className="transition group-hover:translate-x-1" />
-              </button>
-            </form>
+            <div className="relative z-10 mt-10">
+  <NewsletterForm />
+</div>
 
             <p className="relative z-10 mt-5 text-xs text-[#ede5dc]/50">
               Aucun bruit inutile. Simplement des contenus pensés pour ralentir.

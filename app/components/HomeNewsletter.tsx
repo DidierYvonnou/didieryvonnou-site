@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PrimaryButton from "./ui/PrimaryButton";
+import NewsletterForm from "./NewsletterForm";
 
 export default function HomeNewsletter() {
   return (
@@ -24,31 +25,9 @@ export default function HomeNewsletter() {
             votre cheminement, sans bruit inutile.
           </p>
 
-          <form
-            action="https://assets.mailerlite.com/jsonp/2372190/forms/188199473539712673/subscribe"
-            method="post"
-            target="_blank"
-            className="mt-10 flex max-w-xl flex-col gap-3 sm:flex-row"
-          >
-            <input
-              type="email"
-              name="fields[email]"
-              required
-              placeholder="Votre adresse email"
-              autoComplete="email"
-              className="flex-1 rounded-full border border-[#ede5dc]/20 bg-[#ede5dc]/10 px-6 py-4 text-sm text-[#ede5dc] outline-none transition placeholder:text-[#ede5dc]/45 focus:border-[#c3963b]/70"
-            />
-
-            <input type="hidden" name="ml-submit" value="1" />
-            <input type="hidden" name="anticsrf" value="true" />
-
-            <button
-              type="submit"
-              className="rounded-full bg-[#ede5dc] px-7 py-4 text-sm font-semibold text-[#292928] transition hover:bg-white"
-            >
-              S’inscrire
-            </button>
-          </form>
+          <div className="mt-10 max-w-xl">
+  <NewsletterForm />
+</div>
 
           <p className="mt-5 text-xs text-[#ede5dc]/45">
             Une lettre simple, occasionnelle, pensée pour prendre le temps.
