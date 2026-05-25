@@ -66,6 +66,9 @@ export const metadata: Metadata = {
       "Réflexions et contenus autour du retour à soi, de l’ancrage et du bien-être durable.",
     images: ["/images/og-image.webp"],
   },
+  verification: {
+  google: "eRU_oBElbeo2F3qhxYc8GHwUVBLWStL79KsVRUCxcxQ",
+},
   robots: {
     index: true,
     follow: true,
