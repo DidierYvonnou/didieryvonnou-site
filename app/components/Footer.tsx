@@ -52,7 +52,19 @@ export default function Footer() {
 
       <div className="mx-auto mt-10 flex max-w-7xl flex-col justify-between gap-4 border-t border-[#ede5dc]/10 pt-8 text-xs text-[#ede5dc]/40 md:flex-row">
         <p>© 2026 Didier Yvonnou. Tous droits réservés.</p>
+<Link
+  className="hover:text-[#ede5dc]"
+  href="/mentions-legales"
+>
+  Mentions légales
+</Link>
 
+<Link
+  className="hover:text-[#ede5dc]"
+  href="/politique-confidentialite"
+>
+  Confidentialité
+</Link>
         <p>Site imaginé avec calme, clarté et justesse.</p>
       </div>
     </footer>
