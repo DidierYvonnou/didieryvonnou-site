@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "À propos — Didier Yvonnou",
+    title: "À propos - Didier Yvonnou",
     description:
       "Découvrez le parcours de Didier Yvonnou et sa vision du bien-être durable et du retour à soi.",
     url: "https://didieryvonnou.fr/a-propos",
@@ -53,7 +53,7 @@ const timeline = [
   {
     year: "18 ans",
     title: "Premier voyage intérieur",
-    text: "Un départ seul en Thaïlande, qui transforme sa vision de la vie et ouvre une première quête intérieure.",
+    text: "Un départ seul en Thaïlande, qui transforme ma vision de la vie et ouvre une première quête intérieure.",
   },
   {
     year: "Parcours",
